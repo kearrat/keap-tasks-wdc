@@ -1,0 +1,21 @@
+{
+  "name": "keap-tasks-wdc",
+  "version": "1.0.0",
+  "description": "A WDC to get tasks from the Keap marketing automation platform.",
+  "scripts": {
+    "dev": "ntl dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KeshiaRose/keap-tasks-wdc.git"
+  },
+  "author": "Keshia Rose",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KeshiaRose/keap-tasks-wdc/issues"
+  },
+  "homepage": "https://github.com/KeshiaRose/keap-tasks-wdc#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  }
+}

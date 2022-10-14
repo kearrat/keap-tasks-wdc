@@ -121,7 +121,7 @@ myConnector.getData = async function(table, doneCallback) {
       },
       body: JSON.stringify({ pat }),
     };
-    const taskResponse = await fetch('/getTasks', options);
+    const taskResponse = await fetch('/.netlify/functions/get_tasks', options);
     const taskData = await taskResponse.json();
     if (taskData.error)
       return tableau.abortWithError(
