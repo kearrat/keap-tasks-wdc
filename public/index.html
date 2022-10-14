@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="Cache-Control" content="no-store" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="A WDC to get task data from the Keap marketing automation platform." />
+  <title>Keap Tasks WDC</title>
+  <link rel="stylesheet" href="/style.css" />
+  <script src="https://connectors.tableau.com/libs/tableauwdc-2.3.latest.js"></script>
+  <script src="/script.js" defer></script>
+</head>
+
+<body>
+  <section class="section">
+    <div class="container">
+      <h1 class="title has-text-centered">
+        <img class="icon" src="/k-logo.svg" /> Keap Tasks
+      </h1>
+      <p class="subtitle has-text-centered">
+        A WDC to get task data from the
+        <a href="https://keap.com/" target="_blank">Keap</a> marketing automation platform.
+      </p>
+      <div class="field">
+        <label class="label">Your Keap Personal Access Token</label>
+        <div class="control">
+          <input class="input" type="password" placeholder="KeapAK-abcd1234909112652f013178f003d69c60123e6919abddb6" id="pat" />
+        </div>
+        <p class="help is-danger" id="error"></p>
+      </div>
+      <div class="field">
+        <div class="control">
+          <button class="button is-link is-fullwidth" onclick="submit()">Get Task Data!</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
