@@ -2,16 +2,23 @@
 
 A WDC to get tasks from the Keap marketing automation platform.
 
-## How to deploy
+## How to set up
 
 [![Deploy to Netlify Button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/KeshiaRose/keap-tasks-wdc)
 
-## How to use
-
-1. [Create a Keap Personal Access Token](https://developer.infusionsoft.com/pat-and-sak/) (PAT) if you don't already have one.
-1. Start a [new WDC connection](https://tableau.github.io/webdataconnector/docs/wdc_use_in_tableau.html) in Tableau Desktop 2019.4 or higher and enter your personal netlify URL. For example: `https://keap-tasks-wdc.netlify.app/`
-1. Enter your Keap PAT.
-1. Click Get Data!
+1. Create a [GitHub account](https://github.com/signup), if you don’t have one already.
+1. Create a [Netlify account](https://app.netlify.com/signup), if you don’t have one already.
+1. Click the green “Deploy on Netlify” button above.
+1. In the opened page click “Connect to GitHub” and login with your GitHub account.
+   - Optional: Change the name of the project if you want to.
+1. Click “Save & Deploy”.
+1. Wait a minute or so and refresh the page to make sure your site deployed successfully.
+   - Under “Production deploys” you should see: “Production: main@HEAD Published”.
+1. Take note of your site’s url (Shown near the top) for example: `https://ephemeral-kringle-4eadba.netlify.app`.
+   - If you want to change this URL go to “Site settings” and then click “Change site name” and change it to something more memorable.
+1. Start a new WDC connection in Tableau Desktop and enter your new site's URL.
+1. Enter your [Keap PAT](https://developer.infusionsoft.com/pat-and-sak/).
+1. Click Get Data! 🎉
 
 ## How to refresh
 
